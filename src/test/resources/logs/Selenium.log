@@ -1,0 +1,6 @@
+14:54:42,670 DEBUG devpinoyLogger:58 - config file loaded
+14:54:42,678 DEBUG devpinoyLogger:75 - OR file loaded
+14:54:46,982 DEBUG devpinoyLogger:89 - Chrome launched !!!
+14:54:57,782 DEBUG devpinoyLogger:17 - Inside Test
+14:54:59,884 DEBUG devpinoyLogger:21 - login succesfull
+14:55:00,702 DEBUG devpinoyLogger:115 - Application closed.
