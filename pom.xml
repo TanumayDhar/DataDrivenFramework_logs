@@ -1,11 +1,13 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.openMRS</groupId>
-  <artifactId>DataDrivenFramework</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <dependencies>
-  
-    	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.openMRS</groupId>
+	<artifactId>DataDrivenFramework</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<dependencies>
+
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
@@ -120,31 +122,26 @@
 				<configuration>
 					<testFailureIgnore> false </testFailureIgnore>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/com/w2a/runner/testng.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/runner/testng.xml</suiteXmlFile>
 
 					</suiteXmlFiles>
 				</configuration>
-
-
-
-
 
 			</plugin>
 
 
 		</plugins>
-		
-		
+
 		<testResources>
-      <testResource>
-        <directory>src/test/resources/com/w2a/properties</directory>
-        <includes>
-          <include>log4j.properties</include>
-        </includes>
-      </testResource>
-    </testResources>
-		
-		
+			<testResource>
+				<directory>src/test/resources/properties</directory>
+				<includes>
+					<include>log4j.properties</include>
+				</includes>
+			</testResource>
+		</testResources>
+
+
 	</build>
-  
+
 </project>
